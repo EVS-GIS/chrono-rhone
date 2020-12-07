@@ -1,0 +1,207 @@
+{
+  "common":{
+    "validate":"Validate",
+    "delete":"Delete",
+    "cancel":"Cancel",
+    "actions":"Actions",
+    "add":"Add",
+    "add-new":"Add new...",
+    "close": "Close",
+    "import":"Import"
+  },
+  "fields":{
+    "id":"Id",
+    "email":"Mail address",
+    "password":"Password",
+    "password_confirmation": "Password confirmation",
+    "firstname":"First name",
+    "name":"Last name",
+    "organization":"Organization",
+    "role":"Role",
+    "slug":"Slug",
+    "thematic":"Thematic",
+    "themes":"Themes",
+    "theme":"Theme",
+    "ranking":"Ranking",
+    "color":"Color",
+    "name_fr":"French name",
+    "name_en":"English name",
+    "title":"Title",
+    "event":"Event",
+    "events":"Events",
+    "relation":"Relationship",
+    "author":"Contributor",
+    "image":"Image",
+    "images":"Images",
+    "filename":"Filename",
+    "upload":"Drop your files here or click to upload",
+    "legend":"Legend",
+    "copyright":"Copyright",
+    "geojson":"Import a geometry (in geojson format)",
+    "database":"Import database"
+  },
+  "validations":{
+    "required":"This field is required",
+    "email":"This field must be a valid email",
+    "confirmed": "This field confirmation does not match",
+    "min": "This field must have no less than {length} characters",
+    "max": "This field must have no more than {length} characters",
+    "numeric": "This field should only contain numbers",
+    "regex": "This field must contain only integer or decimal values",
+    "mimes":"This field does not contain the correct type of file"
+  },
+  "login":{
+    "connect":"Log in",
+    "forgot-password":"Forgot your password ?"
+  },
+  "forgot-password":{
+    "description":"Please enter the email associated with your account and click on the button to receive an email for resetting your password",
+    "submit": "Forgot your password",
+    "success":"Instructions for resetting your password have been sent to the email address used to register your account."
+  },
+  "reset-password":{
+    "title":"Renew my password",
+    "success":"Modification of the password has been done, consult please log in by clicking on the following link:",
+    "error":"Password change is not possible, please contact the administrator"
+  },
+  "nav":{
+    "home":"Home",
+    "timeline":"Timeline",
+    "map":"Map",
+    "use":"Using Chrono-Rhône",
+    "language":"Language",
+    "admin-panel":"Admin panel",
+    "login":"Sign in",
+    "logout":"Log out",
+    "account":"My account",
+    "open-filters":"Open filters",
+    "close-filters":"Close filters"
+  },
+  "sidebar":{
+    "mapstyle":"Map styles",
+    "thematics":"Thematics",
+    "distance":"Distance to Lake Geneva (km)",
+    "relationships": "Relationships",
+    "export": "Export"
+  },
+  "users":{
+    "title":"Users",
+    "title-create":"Create user",
+    "title-update":"Update user",
+    "filter":"Filter by name",
+    "no-users":"No users",
+    "delete-user":"Delete this user",
+    "confirm-delete-user": "Are you sure you want to delete this <b> user </ b>?",
+    "confirm-delete-my-account": "Are you sure you want to delete your <b> account </ b>?",
+    "created":"User created successfully",
+    "updated":"User updated successfully",
+    "deleted":"User deleted successfully",
+    "delete":"Delete my account"
+  },
+  "roles":{
+    "title":"Roles",
+    "title-create":"Create a role",
+    "title-update":"Update a role",
+    "filter":"Filter by name",
+    "no-roles":"No roles",
+    "delete-role":"Delete this role",
+    "confirm-delete-role": "Are you sure you want to delete this <b> role </ b>?",
+    "created":"Role created successfully",
+    "updated":"Role updated successfully",
+    "deleted":"Role deleted successfully"
+  },
+  "thematics":{
+    "title":"Thematics",
+    "title-create":"Create a thematic",
+    "title-update":"Update a thematic",
+    "filter":"Filter by name",
+    "no-thematics":"No thematic",
+    "delete-thematic":"Delete this thematic",
+    "confirm-delete-thematic": "Are you sure you want to delete this <b> thematic </ b>?",
+    "created":"Thematic created successfully",
+    "updated":"Thematic updated successfully",
+    "deleted":"Thematic deleted successfully"
+  },
+  "themes":{
+    "title":"Themes",
+    "title-create":"Create a theme",
+    "title-update":"Update a theme",
+    "filter":"Filter by name",
+    "no-themes":"No theme",
+    "delete-theme":"Delete this theme",
+    "confirm-delete-theme": "Are you sure you want to delete this <b> theme </ b>?",
+    "created":"Theme created successfully",
+    "updated":"Theme updated successfully",
+    "deleted":"Theme deleted successfully"
+  },
+  "relationships":{
+    "title":"Relationships",
+    "title-create":"Create a relationship",
+    "title-update":"Update a relationship",
+    "filter":"Filter by name",
+    "no-relationships":"No relationship",
+    "delete-relation":"Delete this relationship",
+    "confirm-delete-relation": "Are you sure you want to delete this <b> relationship </ b>?",
+    "created":"Relationship created successfully",
+    "updated":"Relationship updated successfully",
+    "deleted":"Relationship deleted successfully"
+  },
+  "events":{
+    "title":"Events",
+    "title-create":"Create an event",
+    "title-update":"Update an event",
+    "filter":"Filter by title",
+    "no-events":"No event",
+    "delete-event":"Delete this event",
+    "select-event":"Select an event",
+    "confirm-delete-event": "Are you sure you want to delete this <b> event </ b>?",
+    "created":"Event created successfully",
+    "updated":"Event updated successfully",
+    "deleted":"Event deleted successfully",
+    "only-mine":"Only my events"
+  },
+  "images":{
+    "title":"Images",
+    "title-create":"Add an image",
+    "title-update":"Update an image",
+    "filter":"Filter by name",
+    "no-images":"No image",
+    "delete-image":"Delete this image",
+    "select-image":"Select an image",
+    "confirm-delete-image": "Are you sure you want to delete this <b> image </ b>?",
+    "created":"Image added successfully",
+    "updated":"Image updated successfully",
+    "deleted":"Image deleted successfully"
+  },
+  "map":{
+    "legend":"Legend"
+  },
+  "single":{
+    "thematic":"Thematics",
+    "theme":"Theme",
+    "period":"Period",
+    "start_day":"Start day",
+    "start_month":"Start month",
+    "start_year":"Start year",
+    "end_day":"End day",
+    "end_month":"End month",
+    "end_year":"End year",
+    "description":"Description",
+    "location":"Location",
+    "km_up":"Start kilometer",
+    "km_down":"End kilometer",
+    "bibliography":"Bibliography",
+    "relationships":"Relationships with other events",
+    "geometries":"Drawing geometries",
+    "previous":"Children of :",
+    "next":"Parent of :",
+    "author":"Author",
+    "creator":"Created by"
+  },
+  "edit-event":{
+    "edit":"Edit"
+  },
+  "database":{
+    "imported":"The database has been correctly imported"
+  }
+}

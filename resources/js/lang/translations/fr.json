@@ -1,0 +1,207 @@
+{
+  "common":{
+    "validate":"Valider",
+    "delete":"Supprimer",
+    "cancel":"Annuler",
+    "actions":"Actions",
+    "add":"Ajouter",
+    "add-new":"Ajouter un nouveau...",
+    "close": "Fermer",
+    "import":"Importer"
+  },
+  "fields":{
+    "id":"Id",
+    "email":"Adresse mail",
+    "password":"Mot de passe",
+    "password_confirmation": "Confirmation du mot de passe",
+    "firstname":"Prénom",
+    "name":"Nom",
+    "organization":"Organisme",
+    "role":"Rôle",
+    "slug":"Label",
+    "thematic":"Thématique",
+    "themes":"Thèmes",
+    "theme":"Thème",
+    "ranking":"Classement",
+    "color":"Couleur",
+    "name_fr":"Nom français",
+    "name_en":"Nom anglais",
+    "title":"Titre",
+    "event":"Evénement",
+    "events":"Evénements",
+    "relation":"Relation",
+    "author":"Contributeur",
+    "image":"Image",
+    "images":"Images",
+    "filename":"Nom du fichier",
+    "upload":"Déposez votre fichier ici ou cliquez pour télécharger",
+    "legend":"Légende",
+    "copyright":"Copyright",
+    "geojson":"Importer une geométrie (au format geojson)",
+    "database":"Importer la base de données"
+  },
+  "validations":{
+    "required": "Ce champ est obligatoire",
+    "email":"Ce champ doit être un email valide",
+    "confirmed": "Ce champ ne correspond pas au précédent",
+    "min": "Ce champ ne doit pas comporter moins de {length} caractères",
+    "max": "Ce champ ne doit pas comporter plus de {length} caractères",
+    "numeric": "Ce champ ne doit contenir que des nombres",
+    "regex": "Ce champ ne doit contenir que des nombres",
+    "mimes":"Ce champ ne contient pas le bon type de fichier"
+  },
+  "login":{
+    "connect":"Se connecter",
+    "forgot-password":"Mot de passe oublié ?"
+  },
+  "forgot-password":{
+    "description":"Veuillez saisir l'adresse mail associé à votre compte et cliquez sur le bouton afin de recevoir un mail permettant de réinitialiser votre mot de passe",
+    "submit": "Mot de passe oublié",
+    "success":"Les instructions pour réinitialiser votre mot de passe ont été envoyées à l'adresse e-mail utilisée pour enregistrer votre compte."
+  },
+  "reset-password":{
+    "title":"Renouveler mon mot de passe",
+    "success":"La modification du mot de passe a été effectuée, veuillez vous connecter en cliquant sur le lien suivant:",
+    "error":"Le changement de mot de passe n'est pas possible, veuillez contacter l'administrateur"
+  },
+  "nav":{
+    "home":"Accueil",
+    "timeline":"Frise",
+    "map":"Carte",
+    "use":"Utiliser Chrono-Rhône",
+    "language":"Langue",
+    "admin-panel":"Administration",
+    "login":"S'identifier",
+    "logout":"Déconnexion",
+    "account":"Mon compte",
+    "open-filters":"Ouvrir les filtres",
+    "close-filters":"Fermer les filtres"
+  },
+  "sidebar":{
+    "mapstyle":"Fonds de carte",
+    "thematics":"Thématiques",
+    "distance":"Distance au lac Léman (km)",
+    "relationships": "Relations",
+    "export": "Exporter"
+  },
+  "users":{
+    "title":"Utilisateurs",
+    "title-create":"Créer un utilisateur",
+    "title-update":"Mettre à jour l'utilisateur",
+    "filter":"Filtrer par nom",
+    "no-users":"Aucun utilisateurs",
+    "delete-user":"Supprimer l'utilisateur",
+    "confirm-delete-user": "Voulez-vous vraiment supprimer cet <b> utilisateur </ b>?",
+    "confirm-delete-my-account": "Voulez-vous vraiment supprimer votre <b> compte </ b>?",
+    "created":"Utilisateur créé avec succès",
+    "updated":"Utilisateur mis à jour avec succès",
+    "deleted":"Utilisateur supprimé avec succès",
+    "delete":"Supprimer mon compte"
+  },
+  "roles":{
+    "title":"Rôles",
+    "title-create":"Créer un rôle",
+    "title-update":"Mettre à jour le rôle",
+    "filter":"Filtrer par nom",
+    "no-roles":"Aucun rôles",
+    "delete-role":"Supprimer le rôle",
+    "confirm-delete-role": "Voulez-vous vraiment supprimer ce <b> rôle </ b>?",
+    "created":"Rôle créé avec succès",
+    "updated":"Rôle mis à jour avec succès",
+    "deleted":"Rôle supprimé avec succès"
+  },
+  "thematics":{
+    "title":"Thématiques",
+    "title-create":"Créer une thématique",
+    "title-update":"Mettre à jour la thématique",
+    "filter":"Filtrer par nom",
+    "no-thematics":"Aucune thématique",
+    "delete-thematic":"Supprimer une thématique",
+    "confirm-delete-thematic": "Voulez-vous vraiment supprimer cette <b> thématique </ b>?",
+    "created":"Thématique créée avec succès",
+    "updated":"Thématique mise à jour avec succès",
+    "deleted":"Thématique supprimée avec succès"
+  },
+  "themes":{
+    "title":"Thèmes",
+    "title-create":"Créer un thème",
+    "title-update":"Mettre à jour le thème",
+    "filter":"Filtrer par nom",
+    "no-themes":"Aucun thème",
+    "delete-theme":"Supprimer un thème",
+    "confirm-delete-theme": "Voulez-vous vraiment supprimer ce <b> thème </ b>?",
+    "created":"Thème créé avec succès",
+    "updated":"Thème mis à jour avec succès",
+    "deleted":"Thème supprimé avec succès"
+  },
+  "relationships":{
+    "title":"Relations",
+    "title-create":"Créer une relation",
+    "title-update":"Mettre à jour la relation",
+    "filter":"Filtrer par nom",
+    "no-relationships":"Aucune relation",
+    "delete-relation":"Supprimer une relation",
+    "confirm-delete-relation": "Voulez-vous vraiment supprimer cette <b> relation </ b>?",
+    "created":"Relation créée avec succès",
+    "updated":"Relation mise à jour avec succès",
+    "deleted":"Relation supprimée avec succès"
+  },
+  "events":{
+    "title":"Evènements",
+    "title-create":"Créer un évènement",
+    "title-update":"Mettre à jour l'évènement",
+    "filter":"Filtrer par titre",
+    "no-events":"Aucun évènement",
+    "delete-event":"Supprimer un évènement",
+    "select-event":"Sélectionner un évènement",
+    "confirm-delete-event": "Voulez-vous vraiment supprimer cet <b> évènement </ b>?",
+    "created":"Evènement créé avec succès",
+    "updated":"Evènement mis à jour avec succès",
+    "deleted":"Evènement supprimé avec succès",
+    "only-mine":"Seulement mes évènements"
+  },
+  "images":{
+    "title":"Images",
+    "title-create":"Ajouter une image",
+    "title-update":"Mettre à jour l'image",
+    "filter":"Filtrer par nom",
+    "no-images":"Aucune image",
+    "delete-image":"Supprimer cette image",
+    "select-image":"Sélectionner une image",
+    "confirm-delete-image": "Voulez-vous vraiment supprimer cette <b> image </ b>?",
+    "created":"Image ajoutée avec succès",
+    "updated":"Image mise à jour avec succès",
+    "deleted":"Image supprimée avec succès"
+  },
+  "map":{
+    "legend":"Légende"
+  },
+  "single":{
+    "thematic":"Thématique",
+    "theme":"Thème",
+    "period":"Période",
+    "start_day":"Jour",
+    "start_month":"Mois",
+    "start_year":"Année de début",
+    "end_day":"Jour",
+    "end_month":"Mois",
+    "end_year":"Année de fin",
+    "description":"Description",
+    "location":"Localisation",
+    "km_up":"Km de début",
+    "km_down":"Km de fin",
+    "bibliography":"Bibliographie",
+    "geometries":"Dessiner des Géometries",
+    "relationships":"Relations à d'autres évènements",
+    "previous":"Enfant de :",
+    "next":"Parent de :",
+    "author":"Auteur",
+    "creator":"Créé par"
+  },
+  "edit-event":{
+    "edit":"Editer"
+  },
+  "database":{
+    "imported":"La base de donnée a été correctement importée"
+  }
+}
