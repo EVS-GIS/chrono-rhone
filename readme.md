@@ -134,6 +134,10 @@ By default, we use the map style publish by data.gouv.fr available at https://op
 - Run the seeders to initialize database. It will create a user admin@chrono-rhone.fr with password `admin` and all the rights to start the project.  
 
         php artisan db:seed
+        
+- Change files ownership to www-data
+
+        chown www-data:www-data -R *
 
 - Optional : If you need to compiled the Vue.js project, please ensure that Node.js is installed on the serveur and use the following commands :
 
