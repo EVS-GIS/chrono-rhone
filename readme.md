@@ -20,6 +20,8 @@ You need at least :
   - PDO PHP Extension
   - Tokenizer PHP Extension
   - XML PHP Extension
+  - Zip PHP Extension
+  - GD PHP Extension
 
 For this project, we used PostgreSQL as SGBD, so you also need to install the Postgresql PHP 7 Extension php7-pgsql and activate the module by the command : phpenmod pgsql
 
@@ -99,6 +101,10 @@ The required Node.js version is 8.9 or above (13.7.0+ recommended). You can mana
 
         composer install
 
+- Update dependencies if needed
+
+        composer update
+
 - Copy the example .env file and make the required configuration changes in the .env file (database, email, mapbox token, etc...)
 
         cp .env.example .env
@@ -128,6 +134,10 @@ By default, we use the map style publish by data.gouv.fr available at https://op
 - Run the seeders to initialize database. It will create a user admin@chrono-rhone.fr with password `admin` and all the rights to start the project.  
 
         php artisan db:seed
+        
+- Change files ownership to www-data
+
+        chown www-data:www-data -R *
 
 - Optional : If you need to compiled the Vue.js project, please ensure that Node.js is installed on the serveur and use the following commands :
 
