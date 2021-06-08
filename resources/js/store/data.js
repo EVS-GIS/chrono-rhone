@@ -26,7 +26,7 @@ const actions = {
         callPages.push(axios.get('/events' + '?page=' + i))
       }
       const responses = await axios.all(callPages)
-      const response = responses.map(response =>{
+      const response = responses.sort((a, b) => {return a.data.meta.current_page - b.data.meta.current_page}).map(response =>{
         return response.data.data
       }).flat()
       commit('getEvents', response)

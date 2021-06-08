@@ -23,6 +23,7 @@ class EventRepository extends BaseRepository
       DB::raw('ST_AsGeoJSON(points,6) as points'),DB::raw('ST_AsGeoJSON(lines,6) as lines'),DB::raw('ST_AsGeoJSON(polygons,6) as polygons')))
       ->leftJoin('themes','themes.id','=','events.theme_id')
       ->orderBy('ranking','asc')
+      ->orderBy('start_year','asc')
       ->paginate(100);
   }
   
