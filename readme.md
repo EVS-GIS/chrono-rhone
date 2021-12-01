@@ -146,6 +146,18 @@ By default, we use the map style publish by data.gouv.fr available at https://op
 
 - Great! The project is now install. You can sign in with the default admin user, create new users, import events by uploading the model of Excel file or begin to create new events, thematics and themes.
 
+# Deploy this app using docker
+
+- If the database does not exists yet, create the postgresql database with the postgis extension. Migrate and seed database from another chrono-rhone installation. 
+- Copy the example .env file and make the required configuration changes in the .env file (database, email, mapbox token, etc...)
+- Build image
+
+        docker build -t my-chrono-rhone:$(git rev-parse --short HEAD) .
+
+- Run a container and access the application at localhost:8080
+
+        docker run -it --rm -p 8080:80 my-chrono-rhone:$(git rev-parse --short HEAD)
+
 # Code overview
 
 ## Dependencies
