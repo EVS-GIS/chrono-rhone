@@ -148,15 +148,23 @@ By default, we use the map style publish by data.gouv.fr available at https://op
 
 # Deploy this app using docker
 
-- If the database does not exists yet, create the postgresql database with the postgis extension. Migrate and seed database from another chrono-rhone installation. 
+The database is not included in the chrono-rhone docker image because it's intended to be persistent. If the database does not exists yet, create the postgresql database with the postgis extension. You can use the official postgis docker image to do it. Then build the chrono-rhone image as described below.
+
 - Copy the example .env file and make the required configuration changes in the .env file (database, email, mapbox token, etc...)
 - Build image
 
         docker build -t my-chrono-rhone:$(git rev-parse --short HEAD) .
 
+- If the database is a new empty instance, migrate and seed it
+
+        docker run -it --rm -w /var/www/chrono-rhone/ my-chrono-rhone:$(git rev-parse --short HEAD) /usr/local/bin/php artisan migrate --force
+        docker run -it --rm -w /var/www/chrono-rhone/ my-chrono-rhone:$(git rev-parse --short HEAD) /usr/local/bin/php artisan db:seed --force
+
 - Run a container and access the application at localhost:8080
 
-        docker run -it --rm -p 8080:80 my-chrono-rhone:$(git rev-parse --short HEAD)
+        docker run -it --rm -p 8080:80 --name my-chrono-rhone-instance my-chrono-rhone:$(git rev-parse --short HEAD)
+
+It's recommended to mount a persistent volume to /var/www/chrono-rhone/public/storage so that the application can store the images there.
 
 # Code overview
 
