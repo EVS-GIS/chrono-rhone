@@ -17,7 +17,7 @@
     "@turf/helpers": "^6.1.4",
     "@turf/line-slice-along": "^5.1.5",
     "apexcharts": "^3.21.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.2",
     "buefy": "^0.9.3",
     "bulmaswatch": "^0.8.1",
     "js-file-download": "^0.4.12",
