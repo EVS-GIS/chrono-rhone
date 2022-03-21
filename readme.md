@@ -157,8 +157,8 @@ In this example, database is stored in a persistent docker volume.
 
 - If the database is a new empty instance, migrate and seed it
 
-        docker exec -it -w /var/www/chrono-rhone/ chrono-rhone_app_1 /usr/local/bin/php /var/www/chrono-rhone/artisan migrate --force
-        docker exec -it -w /var/www/chrono-rhone/ chrono-rhone_app_1 /usr/local/bin/php /var/www/chrono-rhone/artisan db:seed --force
+        docker exec -it -w /var/www/chrono-rhone/ chrono-rhone_app_1 /usr/local/bin/php artisan migrate --force
+        docker exec -it -w /var/www/chrono-rhone/ chrono-rhone_app_1 /usr/local/bin/php artisan db:seed --force
 
 - Access the application at localhost:8080
 
