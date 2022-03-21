@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  db:
+    image: postgis/postgis:13-3.2-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: $DB_DATABASE
+      POSTGRES_USER: $DB_USERNAME
+      POSTGRES_PASSWORD: $DB_PASSWORD
+    healthcheck:
+      test: pg_isready -d ${DB_DATABASE} -U ${DB_USERNAME}
+      interval: 5s
+      timeout: 3s
+      retries: 6
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  app:
+    build: .
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+
+volumes:
+  db-data:
