@@ -42,6 +42,9 @@
       <div class="content has-text-centered">
         <p>Projet financé en 2020 par la SATT <a href="https://www.pulsalys.fr/" target="_blank">Pulsalys</a> de Lyon St-Etienne et <a href="https://idexlyon.universite-lyon.fr/" target="_blank">l’IDEX Université de Lyon</a>.</p>
       </div>
+      <div class="content has-text-centered">
+        <p>Lire les <a href="./cgu">conditions générales d'utilisation</a>.</p>
+      </div>
     </footer>
   </section>
 </template>
