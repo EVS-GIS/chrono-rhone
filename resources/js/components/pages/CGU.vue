@@ -68,6 +68,143 @@
       <h3 class="subtitle has-text-centered">
         1. Définitions
       </h3>
+      <div class="content has-text-justified">
+        <p>« <strong>PLATEFORME</strong> » : désigne :</p>
+        <ul class="incremental">
+        <li><p>L’ensemble de la base de données dénommée « CHRONO-RHONE », développée et gérée par EVS et constituée de l’ensemble informationnel et structuré des données produites par EVS, ainsi que les éléments logiciels en permettant le fonctionnement,</p></li>
+        <li><p>Les SERVICES associés à cette base de données,</p></li>
+        <li><p>Le site internet sur lequel la PLATEFORME est disponible.</p></li>
+        </ul>
+        <p>« <strong>SERVICES</strong> » : désigne les services de la PLATEFORME décrits à l’article 4.1.</p>
+        <p>« <strong>DONNEES</strong> » : désigne l’ensemble des données informationnelles et des contenus quels qu’ils soient, accessibles sur la PLATEFORME, ainsi que les MÉTADONNÉES associées.</p>
+        <p>« <strong>CONTRIBUTIONS</strong> » : désignent les informations apportées par les UTILISATEURS qui souhaitent enrichir la PLATEFORME.</p>
+        <p>« <strong>PARTIES </strong>» : désignent à la fois l’ENS de Lyon, représentant l’ensemble des établissements cotutelles du laboratoire EVS, et l’UTILISATEUR.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        2. Durée et objet
+      </h3>
+      <div class="content has-text-justified">
+        <p>Les présentes CGU ont pour objet de définir les droits et obligations des PARTIES dans le cadre de l’accès à la PLATEFORME et aux SERVICES.</p>
+        <p>Les présentes CGU entrent en vigueur à la date de l’accès à la PLATEFORME ou à la date de l’accès aux SERVICES.</p>
+        <p>Les présentes CGU sont conclues pour la durée de l’accès à la PLATEFORME et/ou aux SERVICES.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        3. Intégralité
+      </h3>
+      <div class="content has-text-justified">
+        <p>Les présentes CGU expriment l’intégralité des droits et obligations des parties eu égard à l’accès à la PLATEFORME et aux SERVICES.</p>
+        <p>L’UTILISATEUR déclare avoir lu, compris et accepté de manière expresse et sans réserve l’intégralité des présentes CGU, par son simple accès et utilisation à la PLATEFORME.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        4. Utilisation de la plateforme
+      </h3>
+      <div class="content has-text-justified">
+        <p>Les UTILISATEURS s’engagent à utiliser la PLATEFORME raisonnablement et dans la limite des dispositions légales en vigueur.</p>
+        <p>Les UTILISATEURS peuvent s’inscrire et se connecter sur la PLATEFORME (« UTILISATEURS CONNECTES ») ou non (« UTILISATEURS NON CONNECTES »).</p>
+        <p>Les UTILISATEURS CONNECTES ont accès à tous les SERVICES de la PLATEFORME à savoir :</p>
+        <p>1. les services de base de la PLATEFORME (ci-après les « SERVICES DE BASE ») :</p>
+        <ul class="incremental">
+        <li><p>Consultation des évènements historiques qui ont marqué l’évolution socio-environnementale du Rhône via l’interface « Frise » et l’interface « Carte » : requêtes par Thème, Thématique, Période temporelle, Relation, Position sur le corridor rhodanien ;</p></li>
+        <li><p>Export des évènements aux formats Excel et GeoJSON ;</p></li>
+        <li><p>Accès aux données via l’API.</p></li>
+        </ul>
+        <p>2. les services avancés de la PLATEFORME :</p>
+        <ul class="incremental">
+        <li><p>Attribution du rôle d’éditeur ou de contributeur en fonction du niveau de droits déterminé par le responsable de la PLATEFORME. Le contributeur peut ajouter des évènements et gérer les évènements qu’il a créé. L’éditeur peut gérer l’intégralité des évènements (révision des contenus), ainsi que les thèmes, thématiques et relations et importer des évènements en lots via un formulaire .xls ;</p></li>
+        <li><p>Ajout et modifications de données via l’API.</p></li>
+        </ul>
+        <p>L’accès aux SERVICES par les UTILISATEURS NON CONNECTES est limité aux SERVICES DE BASE.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        5. Propriété intellectuelle
+      </h3>
+      <div class="content has-text-justified">
+        <p>Le contenu de la PLATEFORME respecte la législation française en vigueur, notamment celle concernant la propriété intellectuelle. Tous les droits concernant la PLATEFORME appartiennent exclusivement aux établissements cotutelles du laboratoire EVS.</p>
+        <p>Les UTILISATEURS ne disposent que d’un droit d’accès à la PLATEFORME, strictement encadré par les CGU.</p>
+        <p><strong>Toute exploitation de la PLATEFORME à des fins directement ou indirectement commerciales est soumise à l’obtention préalable d’une licence payante délivrée par l’ENS de Lyon (contact : valorisation@ens-lyon.fr).</strong></p>
+        <p>Les UTILISATEURS ont la possibilité d’ajouter une CONTRIBUTION sur la PLATEFORME afin de l’enrichir. Le cas échéant, ils reconnaissent que celle-ci ne permet en aucun cas de prétendre à un quelconque droit de propriété intellectuelle sur la PLATEFORME.</p>
+        <p>Une validation est effectuée par le responsable de la PLATEFORME, qui est informé de chaque CONTRIBUTION par un système d’alerte e-mail.</p>
+        <p>Toute CONTRIBUTION constitue une donnée insusceptible d’être protégée par le droit de la propriété intellectuelle. Elle deviendra, dès le moment où elle est ajoutée sur la PLATEFORME par l’UTILISATEUR concerné, la propriété exclusive des établissements cotutelles du laboratoire EVS.</p>
+        <p>Conformément au Code de la propriété intellectuelle, les UTILISATEURS s’engagent à ne pas procéder à des extractions qualitativement ou quantitativement substantielles du contenu de la PLATEFORME.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        6. Citations et références
+      </h3>
+      <div class="content has-text-justified">
+        <p>Si l’Utilisateur souhaite citer la PLATEFORME, il s’engage à mentionner clairement la source des données prélevées dans la PLATEFORME dans ses publications, communications et autres documents de toute nature qu’il produit à partir des contenus de la PLATEFORME, de la manière suivante : « Ces données sont extraites de l’application <a href="https://chrono-rhone.ens-lyon.fr/"><span class="underline">CHRONO-RHONE</span></a> développée par le CNRS UMR 5600 EVS / These data are extracted from the CHRONO-RHONE application developed by the CNRS UMR 5600 EVS ».</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        7. Responsabilités
+      </h3>
+      <div class="content has-text-justified">
+        <p>Sauf dispositions légales contraires, EVS ne garantit en rien l’accessibilité, la permanence dans le temps, la disponibilité, la stabilité de la PLATEFORME.</p>
+        <p>En conséquence, EVS ne pourra en aucun cas être tenu responsable de tout dysfonctionnement dans l’accès à la PLATEFORME et/ou aux SERVICES, des vitesses d’ouverture et de consultation des pages, de l’arrêt, de la modification, de l’évolution, de l’inaccessibilité temporaire ou définitive de la PLATEFORME, et/ou des SERVICES, d’erreurs dans les informations contenues dans la PLATEFORME, d’inexécution temporaire totale ou partielle de tout service, de l’utilisation frauduleuse par des tiers des informations mises à disposition sur la PLATEFORME.</p>
+        <p>EVS ne saurait en aucun cas être tenu responsable pour tout préjudice physique, matériel ou moral causé ou consécutif à toute défaillance, inaccessibilité, inexécution totale ou partielle de la PLATEFORME, tels que, sans que cette liste soit limitative, des informations erronées ou non-exhaustives, des défaillances de l’accessibilité ou de la stabilité de la PLATEFORME.</p>
+        <p>En tout état de cause et eu égard au caractère gratuit de l’accès à la PLATEFORME, quel que soit le fondement de la réclamation et/ou action judiciaire de tout UTILISATEUR : celle-ci devra être formulée dans l’année qui suit l’apparition de l’événement objet de la réclamation et ne donnera lieu à aucune indemnisation.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        8. Comportement général des utilisateurs
+      </h3>
+      <div class="content has-text-justified">
+        <p>Les UTILISATEURS utilisent la PLATEFORME de manière responsable, et s’interdisent en conséquence :</p>
+        <ul class="incremental">
+        <li><p>de perturber ou interrompre la PLATEFORME, les SERVICES ou les serveurs ou réseaux connectés à la PLATEFORME ;</p></li>
+        <li><p>d’essayer de porter atteinte à l’accès de tout autre visiteur ou UTILISATEUR de la PLATEFORME, hébergeur ou réseau, ce qui comprend, sans exhaustivité aucune, le fait d’exposer la PLATEFORME à un virus, de créer une saturation, d’inonder le serveur ;</p></li>
+        <li><p>de tenter de sonder, de scruter ou de tester la vulnérabilité d’un système ou d’un réseau ;</p></li>
+        <li><p>d’utiliser ou d’essayer d’utiliser la PLATEFORME et les SERVICES en violation des CGU ;</p></li>
+        <li><p>d’usurper l’identité d’une autre personne physique ou morale ;</p></li>
+        <li><p>de mener une activité ou inciter une tierce personne à mener une activité illégale, ou qui porterait un préjudice à EVS ;</p></li>
+        <li><p>de transmettre ou transférer (par quelque moyen que ce soit) des informations dérivées de la PLATEFORME, notamment à d’autres pays ou à certains ressortissants étrangers en violation d’une loi ou réglementation nationale ou internationale.</p></li>
+        </ul>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        9. Suspension anticipée à l'initative d'EVS
+      </h3>
+      <div class="content has-text-justified">
+        <p>EVS se réserve le droit d’engager la responsabilité de tout UTILISATEUR qui ne respecterait pas les CGU.</p>
+        <p>Sans préjudice de tous dommages et intérêts que EVS pourrait solliciter, EVS se réserve le droit de suspendre l’accès à la PLATEFORME par un UTILISATEUR qui ne respecterait pas les présentes CGU.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        10. Données à caractère personnel
+      </h3>
+      <div class="content has-text-justified">
+        <p>Les données personnelles collectées (nom, prénom, adresse mail professionnelle, organisme professionnel) sont destinées à permettre à l’UTILISATEUR l’accès à la PLATEFORME et ne seront pas utilisées à des fins non prévues par les CGU.</p>
+        <p>Les identifiants de connexion sont communiqués individuellement par le responsable de la PLATEFORME. L’UTILISATEUR est informé que les données personnelles qu’il communique sont nécessaires pour permettre d’accéder aux services avancés de la PLATEFORME. Sauf stipulation contraire directement mentionnée par le responsable de la PLATEFORME, les informations nominatives sont exclusivement collectées pour un usage interne à EVS, responsable de leur traitement et de leur conservation. Cet usage sera non commercial. Les informations nominatives ne seront pas communiquées à des tiers.</p>
+        <p>En cas de réponse incomplète ou d’absence d’une réponse, l’UTILISATEUR s’expose à se voir refuser l’accès à la PLATEFORME et à ses services avancés. Les messages électroniques et données nominatives envoyés à EVS sont conservés pendant la durée d’utilisation de la PLATEFORME par l’UTILISATEUR.</p>
+        <p>Le compte de l’UTILISATEUR et les informations personnelles associées sont automatiquement supprimés en cas d’absence de connexion à la PLATEFORME pendant vingt-quatre (24) mois consécutifs. Un avertissement est envoyé par mail un mois avant la suppression du compte. Tout nouvel accès par la suite doit faire l’objet d’une nouvelle demande d’accès.</p>
+        <p>EVS s’engage à prendre toute mesure raisonnable à sa disposition pour préserver la confidentialité de ces données personnelles.</p>
+        <p>Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée par la loi 6 Août 2004, le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 applicable depuis le 25 mai 2018, et la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, EVS s’engage à respecter la réglementation en vigueur applicable au traitement de données à caractère personnel.</p>
+        <p>Conformément aux dispositions légales et réglementaires en vigueur, l’UTILISATEUR bénéficie d’un droit d’accès, de rectification, de mise à jour et d’effacement des informations qui le concernent, qu’il peut exercer en s’adressant au responsable de la PLATEFORME :</p>
+        <ul class="incremental">
+        <li><p>par courrier électronique à : <a href="mailto:dpo@ens-lyon.fr"><span class="underline">dpo@ens-lyon.fr</span></a></p></li>
+        <li><p>par courrier postal à : ENS de Lyon, UMR EVS, 15 parvis René Descartes, BP 7000, 69342 Lyon Cedex 07, France</p></li>
+        </ul>
+        <p>Conformément à la réglementation européenne et aux dispositions légales en vigueur, les utilisateurs disposent donc notamment des droits suivants :</p>
+        <ul class="incremental">
+        <li><p>droit d'accès et de rectification, de mise à jour, de complétude des données à caractère personnel</p></li>
+        <li><p>droit de verrouillage ou d’effacement des données à caractère personnel, lorsqu’elles sont inexactes, incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou la conservation est interdite</p></li>
+        <li><p>droit de retirer à tout moment un consentement</p></li>
+        <li><p>droit à la limitation du traitement des données des UTILISATEURS</p></li>
+        <li><p>droit d’opposition au traitement des données des UTILISATEURS</p></li>
+        <li><p>droit à la portabilité des données que les UTILISATEURS auront fournies, lorsque ces données font l’objet de traitements automatisés fondés sur leur consentement ou sur un contrat</p></li>
+        <li><p>droit de définir le sort des données des UTILISATEURS après leur mort et de choisir à qui EVS devra communiquer (ou non) ses données à un tiers qu’il aura préalablement désigné.</p></li>
+        </ul>
+        <p>EVS s’engage à traiter, héberger ou transférer les informations collectées en conformité avec la loi « informatique et libertés » du 6 janvier 1978 modifiée par la loi 6 Août 2004 et le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 applicable depuis le 25 mai 2018.</p>
+        <p>EVS s’engage à prendre toutes les précautions nécessaires afin de préserver la sécurité des informations et notamment qu’elles ne soient pas communiquées à des personnes non autorisées.</p>
+        <p>L’UTILISATEUR est informé que lors de ses visites sur la PLATEFORME, un cookie peut s’installer automatiquement sur son logiciel de navigation.</p>
+        <p>Les informations recueillies sur la PLATEFORME seront conservées pendant une durée de 10 ans.</p>
+      </div>
+      <h3 class="subtitle has-text-centered">
+        11. Autres dispositions
+      </h3>
+      <div class="content has-text-justified">
+        <p><strong>11.1. Recommandations techniques</strong></p>
+        <p>Il est recommandé d’accéder à la PLATEFORME via un navigateur à jour.</p>
+        <p><strong>11.2. Droit applicable et attribution de juridiction</strong></p>
+        <p>Les présentes CGU sont régies par la loi française alors même que l’une des PARTIES serait de nationalité étrangère et/ou que les présentes CGU s’exécuteraient en tout ou partie à l’étranger.</p>
+        <p>En cas de divergence d’interprétation sur une version traduite, seule la version française des présentes fait foi.</p>
+        <p>Tout différend ou litige découlant de la validité, de l’interprétation et/ou de l’exécution des présentes CGU, que les PARTIES ne pourraient résoudre à l’amiable, sera soumis à la compétence exclusive du tribunal matériellement compétent de Lyon, même en cas de pluralité de défendeurs, d’action en référé ou d’appel en garantie.</p>
+      </div>
 
       <div class="columns is-mobile is-centered">
         <div class="column is-2">
