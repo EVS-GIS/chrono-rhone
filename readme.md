@@ -226,3 +226,6 @@ http://YOUR_DOMAIN/api/documentation
 This code has been developped by :
 - Ludovic Delhomme from [Datayama](https://datayama.fr). Contact : ludovic.delhomme@datayama.fr
 
+# License
+
+Access to the Chrono-Rhône source code and platform is subject to the acceptance of the [general conditions of use available here](LICENSE.md). Any use of the source code or platform for direct or indirect commercial purposes is subject to the prior obtaining of a paying license to be negotiated with the ENS de Lyon valorization service (<valorisation@ens-lyon.fr>)
