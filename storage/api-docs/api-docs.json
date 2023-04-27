@@ -1304,12 +1304,10 @@
                                         "description": "Multipoint geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Update an event",
                                                 "type": "string",
                                                 "example": "MultiPoint"
                                             },
                                             "coordinates": {
-                                                "description": "Update an event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
@@ -1328,12 +1326,10 @@
                                         "description": "Multilinestring geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Update an event",
                                                 "type": "string",
                                                 "example": "MultiLineString"
                                             },
                                             "coordinates": {
-                                                "description": "Update an event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
@@ -1366,12 +1362,10 @@
                                         "description": "Multipolygon geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Update an event",
                                                 "type": "string",
                                                 "example": "MultiPolygon"
                                             },
                                             "coordinates": {
-                                                "description": "Update an event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
@@ -1599,12 +1593,10 @@
                                         "description": "Multipoint geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Add new event",
                                                 "type": "string",
                                                 "example": "MultiPoint"
                                             },
                                             "coordinates": {
-                                                "description": "Add new event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
@@ -1623,12 +1615,10 @@
                                         "description": "Multilinestring geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Add new event",
                                                 "type": "string",
                                                 "example": "MultiLineString"
                                             },
                                             "coordinates": {
-                                                "description": "Add new event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
@@ -1661,12 +1651,10 @@
                                         "description": "Multipolygon geometry based on geojson nomenclature",
                                         "properties": {
                                             "type": {
-                                                "description": "Add new event",
                                                 "type": "string",
                                                 "example": "MultiPolygon"
                                             },
                                             "coordinates": {
-                                                "description": "Add new event",
                                                 "type": "array",
                                                 "items": {
                                                     "type": "number"
