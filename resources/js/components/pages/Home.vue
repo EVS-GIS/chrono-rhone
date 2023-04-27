@@ -23,6 +23,11 @@
             </a>
           </div>
           <div class="column is-2">
+            <a href="https://www.graie.org/osr/" target="_blank">
+              <img src="./../../assets/OSR.png" alt="Observatoire des Sédiments du Rhône"/>
+            </a>
+          </div>
+          <div class="column is-2">
             <a href="https://umr5600.cnrs.fr" target="_blank">
               <img src="./../../assets/evs.jpg" alt="laboratoire EVS-ENS de Lyon"/>
             </a>
@@ -33,7 +38,7 @@
             </a>
           </div>
         </div>
-        <p class="content has-text-centered">Chrono-Rhône est un prototype développé dans <a href="https://ohm-vallee-du-rhone.in2p3.fr" target="_blank">l’Observatoire Hommes-Milieux Vallée du Rhône</a>,
+        <p class="content has-text-centered">Chrono-Rhône est un prototype développé dans <a href="https://ohm-vallee-du-rhone.in2p3.fr" target="_blank">l’Observatoire Hommes-Milieux Vallée du Rhône</a> et <a href="https://www.graie.org/osr/" target="_blank">l'Observatoire des Sédiments du Rhône</a>,
         à l’initiative du <a href="https://umr5600.cnrs.fr" target="_blank">laboratoire EVS-ENS de Lyon</a> 
         en collaboration avec la société <a href="https://datayama.fr" target="_blank">Datayama</a>.</p>
       </div>
